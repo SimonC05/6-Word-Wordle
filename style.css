@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.row {
+    gap: 5px;
+    display: flex;
+}
+
+.tile {
+    width: 45px;
+    height: 45px;
+
+    border: 2px solid rgb(84, 84, 84);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tile.green {
+    background-color: green;
+}
+
+.tile.yellow {
+    background-color: rgb(198, 198, 9);
+}
+
+.tile.gray {
+    background-color: gray;
+}
